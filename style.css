@@ -128,7 +128,7 @@ span{
 }
 .hero_section {
     background-image: url("am_background.jpg");
-    height: 600px;
+    height: 300px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -144,11 +144,44 @@ span{
     align-items: center;
     justify-content: center;
     font-size: 0.85rem;
-    margin-bottom: 380px;
+    margin-bottom: 100px;
 }
 .hero_msg a {
     color: #007185;
 }
 .shopping {
     display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: linear-gradient(#B92C01,white);
+}
+.box {
+    border: 2px;
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.b1_img {
+    height: 270px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+   
+
+
+
+.b1c {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+    
+
+.b1c p {
+    color: #007185;
 }
