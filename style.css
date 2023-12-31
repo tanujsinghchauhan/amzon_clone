@@ -234,7 +234,7 @@ ul a:hover{
     display: flex;
     align-items: center;
 }
-.logo {
+.logo1 {
     background-image: url("logo2.png");
     background-size: contain;
     height: 60px;
